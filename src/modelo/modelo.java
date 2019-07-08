@@ -245,9 +245,9 @@ public void impresionTicket(int ticket,String cliente,Double recibo){
             linea++;
             printer.printTextWrap(linea, 1, 0, 32, "================================");
             linea++;
-            printer.printTextWrap(linea, 1, 0, 32, " Calle Ingenieros 38 ");
+            printer.printTextWrap(linea, 1, 0, 32, " Calle  ");
             linea++;
-            printer.printTextWrap(linea, 1, 0, 32, "Loma Bonita,Tlax. Tel. 2462285978");
+            printer.printTextWrap(linea, 1, 0, 32, "Tel. ");
             linea++;
             printer.printTextWrap(linea, 1, 0, 10, "Hora,Fecha");
             printer.printTextWrap(linea, 1, 11, 32, horaYfecha.format(fecha).toString());
@@ -406,9 +406,9 @@ public void impresionRecibo(){
             linea++;
             printer.printTextWrap(linea, 1, 0, 32, "================================");
             linea++;
-            printer.printTextWrap(linea, 1, 0, 32, " Calle Ingenieros 38 ");
+            printer.printTextWrap(linea, 1, 0, 32, " Calle  ");
             linea++;
-            printer.printTextWrap(linea, 1, 0, 32, "Loma Bonita,Tlax. Tel. 2462285978");
+            printer.printTextWrap(linea, 1, 0, 32, " Tel. ");
             linea++;
             printer.printTextWrap(linea, 1, 0, 10, "Hora,Fecha");
             printer.printTextWrap(linea, 1, 11, 32, fecha);
