@@ -600,7 +600,7 @@ public class Venta1 extends javax.swing.JInternalFrame {
             if (txtTotal.getText().equals("0")) {
             JOptionPane.showMessageDialog(this, "no hay nada para generar el ticket");
         } else {
-                
+                Ventana.setVenta1(false);
                 mod.impresionTicket(ticket, txtCliente.getText(),recibo);
                 this.dispose();
 
