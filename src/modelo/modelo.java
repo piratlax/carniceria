@@ -210,7 +210,7 @@ public String valorInt(String numero){
 }
 
 public void impresionTicket(int ticket,String cliente,Double recibo){
-    int filas=21;
+    int filas=22;
     int linea=0;
     Double cuenta=0.00;
     //contamos cuantas lineas tiene la venta
@@ -245,9 +245,11 @@ public void impresionTicket(int ticket,String cliente,Double recibo){
             linea++;
             printer.printTextWrap(linea, 1, 0, 32, "================================");
             linea++;
-            printer.printTextWrap(linea, 1, 0, 32, " Calle  ");
+            printer.printTextWrap(linea, 1, 0, 32, "     RFC: CACM8409235Y9");
             linea++;
-            printer.printTextWrap(linea, 1, 0, 32, "Tel. ");
+            printer.printTextWrap(linea, 1, 0, 32, "Ingenieros 38, Loma Bonita");
+            linea++;
+            printer.printTextWrap(linea, 1, 0, 32, "Tel. 246 228 597");
             linea++;
             printer.printTextWrap(linea, 1, 0, 10, "Hora,Fecha");
             printer.printTextWrap(linea, 1, 11, 32, horaYfecha.format(fecha).toString());

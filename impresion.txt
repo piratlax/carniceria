@@ -1,24 +1,22 @@
 ================================
        Carniceria KARSAD        
 ================================
- Calle Ingenieros 38            
-Loma Bonita,Tlax. Tel. 246228597
-Hora,Fecha 10:02:03 07/07/2019  
-Numero de Ticket: 10            
+ RFC: CACM8409235Y9             
+Tel.                            
+Hora,Fecha 11:28:36 10/07/2023  
+Numero de Ticket: 64756         
 Cliente: Mostrador              
 --------------------------------
 DESCRIPCION PRECIO CANT IMPORTE 
                                 
-BISTEC       50.0   1.0     50.0
+BISTECK DE L 135.   1.0    135.0
 --------------------------------
-Total de compra         50.0    
-Dinero recibido         100.0   
-Dinero devuelto         50.0    
+Total de compra         135.0   
+Dinero recibido         150.0   
+Dinero devuelto         15.0    
 ================================
  !Gracias por su preferencia!   
 ================================
-                                
-                                
                                 
                                 
                                 
